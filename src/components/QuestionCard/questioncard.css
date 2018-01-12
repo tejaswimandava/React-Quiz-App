@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 3px;
+}
+
+@media (min-width: 769px) {
+  .container {
+    margin: 2.5rem auto;
+  }
+}
+
+.buttonContainer{
+  margin-top: 30px;
+  padding-left: 5%;
+}
+
+.customButton{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.answers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.backButton{
+  content: '';
+  background: #8BC53F url(./../../assests/svg/prev.jpg) no-repeat;
+  width:40px;
+  height:40px;
+  border-color: #8BC53F;
+  display: inline-block;
+  cursor: pointer;
+}
